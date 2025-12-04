@@ -34,9 +34,6 @@ if __name__ == '__main__':
 
         value_array = np.array(single_vals)
         
-        a = len(value_array[0])
-
-        
         for row in value_array:
             battery_list = []
             for i in reversed(range(12)):
